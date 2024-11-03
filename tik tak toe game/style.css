@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    background-color: aqua;
+    
+}
+
+.container{
+    height: 70vh;  
+text-align: center;
+display:flex ;
+justify-content: center;
+align-items: center;
+
+}
+.game{
+height: 60vmin;
+width: 60vmin;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 1.5vmin;
+
+}
+.box{
+    height: 15vh;
+    width: 15vh;
+    background-color: rgb(92, 108, 227);
+    border-radius: 2vmin;
+    border: none;
+    text-align: center;
+    color: cornsilk;
+    font-size: 55px;
+    
+}
+.reset-btn{
+    height: 8vh;
+    width: 10vh;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(12, 28, 19);
+    color: white;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+#msg{
+    font-size: 50px;
+}
+ #new-btn{
+    height: 8vh;
+    width: 10vh;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(12, 28, 19);
+    color: white;
+    text-align: center;
+ }
